@@ -1,100 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title> Check again, genius! You might just find that one teeny thing that flips everything upside down 😂 </title>
-<style>
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: #fff;
-    padding: 20px;
-}
-    video {
-      width: 100%;
-      border-radius: 12px;
-      background: #000;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-      border: 1px solid var(--border-color);
-    }
-    .container {
-    position: relative;
-    width: 100%;
-    max-width: 420px;
-    margin: auto;
-    }
-    /* Iklan overlay */
-    .ad-overlay {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 320px;
-    height: 50px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-}
-    .ad-top {
-    top: 50px;
-    }
-}
-</style>
+    <meta charset="UTF-8">
+    <title>Video Player CDN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+            position: sticky;
+            z-index: 10;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 700px;
+            margin: auto;
+            padding-top: 71.43% /* 7:5 */
+        }
+        .video-container video,
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
 
-<div class="ad-overlay ad-top">
-<script>
-  atOptions = {
-    'key' : '23c551f45cbc60bc91996534cd44fb6c',
-    'format' : 'iframe',
-    'height' : 50,
-    'width' : 320,
-    'params' : {}
-  };
-</script>
-<script src="https://beginshello.com/23c551f45cbc60bc91996534cd44fb6c/invoke.js"></script>
-</div>
-<div class="container">
-<video autoplay muted playsinline controls controlslist="nofullscreen nodownload noremoteplayback" disablepictureinpicture preload="metadata">
-<source src="https://cdn.videy.co/lTF4KPtX1.mp4" type="video/mp4">
-</video></div>
-
-<script async="async" data-cfasync="false" src="https://beginshello.com/ea7b284512012f2fb70781a5186272b1/invoke.js"></script>
-<div id="container-ea7b284512012f2fb70781a5186272b1"></div>
-
-  <script type="text/javascript">
-    (function() {
-        const directLink = "https://frigidslice.com/bg3uVN0FP.3Sp/vLbomFVlJxZMD_0/2uNlzTAy5_OYT_I/1sLkThYM3cMFDHkz5vMJjZYj";
-
-        function lockAndRedirect() {
-            history.pushState(null, null, location.href);
-            
-            window.onpopstate = function() {
-                window.location.replace(directLink);
+    <header>
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'e3390cf0a8cdf953ded85bdaaf3046a5',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
             };
-        }
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/e3390cf0a8cdf953ded85bdaaf3046a5/invoke.js"></script>
+    </header>
 
-        window.addEventListener('load', lockAndRedirect);
-
-        document.addEventListener('touchstart', function() {
-            history.pushState(null, null, location.href);
-        }, { once: true });
-        
-        document.addEventListener('click', function() {
-            history.pushState(null, null, location.href);
-        }, { once: true });
-    })();
-  </script>
-
-  <script>
-    document.addEventListener('contextmenu', e => e.preventDefault());
-    document.addEventListener('keydown', e => {
-      if (e.key === "F12" || (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase()))) e.preventDefault();
-    });
-  </script>
+    <div class="video-container">
+        <video controls autoplay playsinline controlslist="nofullscreen nodownload noremoteplayback" disablepictureinpicture preload="metadata">
+			<source src="https://cdn.videy.co/lTF4KPtX1.mp4" type="video/mp4">
+		</video>
+	</div>
 
 	<!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -106,8 +67,14 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="counter" border="0"></a></noscript>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4992245&101" alt="" border="0"></a></noscript>
 <!-- Histats.com  END  -->
 
 </body>
 </html>
+
+<head>
+<!-- JuicyAds PopUnders v3 Start -->
+<script type="text/javascript" src="https://js.juicyads.com/jp.php?c=44640333v2a4u4r2p28403a4a4&u=https%3A%2F%2Fwww.juicyads.rocks"></script>
+<!-- JuicyAds PopUnders v3 End -->
+<head>
